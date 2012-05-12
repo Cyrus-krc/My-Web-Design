@@ -1,0 +1,74 @@
+#body{
+	background-color:#043F97;
+	background-image:url('8.jpg');
+	background-repeat:no-repeat;
+	background-position:top;
+	background-attachment:fixed;
+	background-size:1400px;
+}
+p.main{
+	color:#999;
+	white-space:nowrap;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+a:link {color:#FFF}
+a:hover {color:#000033}
+
+#developers{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	width:45%;
+	margin-left:65px;
+}
+#developers td,#developers th{
+	font-size:medium;
+	border:1px solid#03F;
+	padding:5px 9px 2px 9px; 
+}
+#developers th{
+	font-size:medium;
+	text-align:left;
+	padding-top:3px;
+	padding-bottom:2px;
+	background-color:#0033FF
+	color:#FFF;
+}
+#developers td{
+	background-color:white;
+	color:#000;	
+}
+#developers tr{
+	background-color:#7575FF;
+	color:#FFF;	
+}
+
+#developers tr.alt td 
+{
+color:#000000;
+background-color:#AEAEFF;
+}
+#developers caption{
+	color:#FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:large;
+}
+h2.new{
+	color:#003;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:750px;
+	margin-top:-800px;
+}
+h3.new{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#E5E5E5;
+	margin-left:1000px;
+	margin-top:-45px;
+	
+}
+#body2{
+	background-image:url("1.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:1600px;	
+}
