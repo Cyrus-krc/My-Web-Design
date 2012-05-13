@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;	
+}
+body{
+	background-color:#eef;	
+}
+div.container{
+
+}
+div.menu{
+	margin:40px;
+	width:630px;
+	min-height:460px;
+	background-color:#ddf;
+	-khtml-box-shadow:3px 3px 7px #98f;
+	-webkit-box-shadow:3px 3px 7px #98f;
+	-moz-box-shadow:3px 3px 7px #98f;
+	-webkit-border-radius:10px;
+	-moz-border-radius:20px;
+}
+div.menu ul{
+	list-style-type:none;
+}
+div.menu li{
+	background-image:url("images/robbin2.png");
+	background-repeat:no-repeat;
+	min-height:88px;
+	position:relative;
+}
+a:first-child{
+	font-size:28px;	
+}
+div.menu a{
+	display:block;
+	text-decoration:none;	
+	color:#ddf;
+	padding:33px 90px;
+	font-size:22px;
+	font-family:"Times New Roman", Times, serif;
+	text-transform:capitalize;
+	font-variant:small-caps;
+	letter-spacing:2px;
+	text-shadow:1px 2px 2px #001;
+}
+div.menu li:hover{
+	background-image:url(images/robbin1.PNG);
+	background-repeat:no-repeat;
+}
+div.menu li:hover > a{
+	font-size:23px;
+	font-weight:bold;		
+}
+div.menu li ul{
+	width:100%;
+	position:absolute;
+	left:625px;
+	z-index:0;	
+	display:none;
+	top:0px;
+
+}
+div.menu li:hover ul{
+	display:block;
+	position:absolute;	
+}
+div.menu li:hover li{
+	opacity:1;
+	transition:all 1s;
+}
+div.menu li li{
+	opacity:0;
+	transition:all 1s;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+    	<div class="menu">
+			<ul>
+            	<li><a href="#">home</a></li>
+              	<li><a href="#">my bio</a></li>
+                <li><a href="#">services</a>
+                	<ul>
+                    	<li><a href="#">web design</a></li>
+                        <li><a href="#">graphic design</a></li>
+                        <li><a href="#">hosting</a></li>
+                    </ul>
+                </li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">contact us</a></li>               
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
