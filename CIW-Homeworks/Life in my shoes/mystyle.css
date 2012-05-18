@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	outline:1px dashed red;
+	min-height:100px;
+}
+body{
+	background-color:#ddf;
+	background-repeat:no-repeat;
+}
+div.container{
+	background-image:url('images/life in my shoes.jpg');
+ 	
+}
+div.mr11{
+	min-height:395px;	
+}
+div.pic{
+	min-height:395px;	
+}
+div.content{
+	min-height:405px;	
+}
+div.footer{
+	padding-top:1px;	
+}
+div.footerpic{
+	padding-top:1px;
+	min-height:55px;
+}
+div.footerlink{
+	min-height:40px;
+}
+div.footercopy{
+	min-height:45px;
+}

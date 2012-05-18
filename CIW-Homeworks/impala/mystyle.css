@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	outline:1px dashed red;
+}
+body{
+	background-color:#eef;
+	background-repeat:no-repeat;
+}
+div.container{
+	background-image:url('images/impala.jpg'); 	
+}
+div.menu{
+	min-height:148px;	
+}
+div.logo{
+	min-height:148px;	
+}
+div.menubar{
+	min-height:56px;	
+}
+div.menucontent{
+	min-height:93px;	
+}
+div.slide{
+	min-height:250px;	
+}
+div.content{
+	min-height:210px;	
+}
+div.leftcontent{
+	min-height:210px;	
+}
+div.rightcontent{
+	min-height:210px;	
+}
+div.midcontent{
+	min-height:210px;	
+}
+div.footer1{
+	min-height:170px;	
+}
+div.footer2{
+	min-height:110px;	
+}
