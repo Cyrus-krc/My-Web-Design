@@ -1,0 +1,81 @@
+body{
+	background:-webkit-gradient(linear,left top,right top,  from(#fc2), to(#c81));
+}
+.contain{
+	margin-top:80px;
+	min-height:350px;
+	-webkit-transition-property:rotate;
+	-webkit-transition-duration:3s;
+	-webkit-transform:rotate(350deg);
+	width:740px;
+
+}
+div.content1{
+	-webkit-animation:myfirst 2900ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:600ms;
+	float:left;
+	position:relative;
+
+}
+div.content2{
+	-webkit-animation:myfirst 2850ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:1000ms;
+	float:left;
+	position:relative;
+
+}
+div.content3{
+	-webkit-animation:myfirst 2800ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:1400ms;
+	float:left;
+	position:relative;
+
+}
+div.content4{
+	-webkit-animation:myfirst 2750ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:1600ms;
+	float:left;
+	position:relative;
+
+}
+div.content5{
+	-webkit-animation:myfirst 2700ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:2000ms;
+	float:left;
+	position:relative;
+
+}
+div.content6{
+	-webkit-animation:myfirst 2650ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:2400ms;
+	float:left;
+	position:relative;
+
+}
+div.content7{
+	-webkit-animation:myfirst 2600ms infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-delay:2800ms;
+	float:left;
+	position:relative;
+
+}
+p{
+	font-family:"Comic Sans MS", cursive;	
+	font-size:200px;
+
+}
+
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {top:0px;}
+50%  {top:-60px}
+100% {top:0px;}
+}
