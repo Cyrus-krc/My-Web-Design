@@ -1,0 +1,15 @@
+body{
+	background-color:#222;	
+}
+.slide{
+	width:920px;
+	height:480px;
+	border:solid white 1px;	
+}
+#chart{
+	width:120px;
+	height:120px;	
+	border:red solid 1px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+}

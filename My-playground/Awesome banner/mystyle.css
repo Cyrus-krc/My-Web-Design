@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.train{
+	width:945px;
+	height:480px;
+	background-image:url(images/Artpics_084.jpg);
+	background-repeat:no-repeat;
+}
+.chart{
+	border:black 1px solid;
+	width:116px;
+	height:116px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-webkit-box-shadow:3px 3px 3px black;
+	background-color:transparent;
+}
