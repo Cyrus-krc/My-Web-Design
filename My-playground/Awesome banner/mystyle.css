@@ -60,3 +60,15 @@ div.banner div.train > div{
 .img5{
 	background-image:url(images/5.jpg);
 }
+#opa2{
+	-webkit-animation:opacity 3s infinite;
+	-webkit-animation-direction:alternate;
+}
+@-webkit-keyframes opacity
+{
+0%   {background:rgb(1,1,1); opacity:.8;transition-property:all 300ms}
+25% {background:rgb(5,5,5); opacity:.7;transition-property:all 300ms}
+50% {background:rgb(15,15,15); opacity:.5;transition-property:all 300ms}
+65% {background:rgb(20,20,20); opacity:.3;transition-property:all 300ms}
+70% {background:rgb(0,0,0); opacity:0;transition-property:all 300ms}
+}
