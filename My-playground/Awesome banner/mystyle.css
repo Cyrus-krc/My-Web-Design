@@ -75,10 +75,13 @@ div.banner div.train > div{
 70% {background:rgb(0,0,0); opacity:0;transition-property:all 300ms}
 } */
 @-webkit-keyframes move{
-0% {left:0;}
-20%{left:-1060px}
-40%{left:-2120px}
-60%{left:-3180px}
-80%{left:-4240px}
-100%{left:0}	
+0%{left:0}
+12% {left:-1060px}
+25%{left:-2120px}
+37%{left:-3180px}
+50%{left:-4240px}
+62%{left:-3180px}
+75%{left:-2120px}	
+87%{left:-1060px}
+100%{left:0}
 }
