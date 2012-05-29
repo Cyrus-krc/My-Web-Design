@@ -1,5 +1,5 @@
 body{
-	background:-webkit-gradient(linear,left top,right top,  from(#fc2), to(#c81));
+	background:-webkit-gradient(linear,left top,right top,  from(#111), to(#444));
 }
 .contain{
 	margin-top:80px;
@@ -7,7 +7,7 @@ body{
 	-webkit-transition-property:rotate;
 	-webkit-transition-duration:3s;
 	-webkit-transform:rotate(350deg);
-	width:740px;
+	width:820px;
 
 }
 div.content1{
@@ -67,6 +67,7 @@ div.content7{
 
 }
 p{
+	color:white;
 	font-family:"Comic Sans MS", cursive;	
 	font-size:200px;
 
