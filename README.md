@@ -1,4 +1,0 @@
-technoprints
-============
-
-Website technoprints.ir
