@@ -1,0 +1,69 @@
+div{
+	outline:dotted black 2px;	
+	min-height:25px;
+}
+.container{
+	background-image:url('karma.png');
+	min-height:1820px;
+	background-position: top center;
+	width:975px;
+	background-repeat:no-repeat;
+}
+.tooltip{
+	min-height:27px;
+}
+.header{
+	min-height:132px;	
+}
+.logo{
+	min-height:132px;	
+}
+.menu{
+	min-height:132px;		
+}
+.slide{
+	min-height:335px;	
+}
+.banner{
+	margin-top:48px;
+	min-height:280px;
+}
+.top-content{
+	min-height:100px;	
+}
+.main-content{
+	min-height:400px;	
+}
+.adv1{
+	min-height:400px;		
+}
+.adv2{
+	min-height:400px;		
+}
+.adv3{
+	min-height:400px;		
+}
+.adv4{
+	min-height:400px;		
+}
+.buttom-content{
+	min-height:290px;	
+}
+.module{
+	min-height:370px;	
+}
+.module1{
+	min-height:370px;	
+}
+.module2{
+	min-height:370px;	
+}
+.module3{
+	min-height:370px;	
+}
+.module4{
+	min-height:370px;	
+}
+.footer{
+	min-height:90px;	
+}
