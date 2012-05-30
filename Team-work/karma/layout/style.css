@@ -1,16 +1,18 @@
 div{
 	outline:dotted black 2px;	
-	min-height:25px;
 }
-.container{
+body{
 	background-image:url('karma.png');
 	min-height:1820px;
 	background-position: top center;
-	width:975px;
 	background-repeat:no-repeat;
+}
+.container{
+	width:980px;	
 }
 .tooltip{
 	min-height:27px;
+	padding-top:1px;
 }
 .header{
 	min-height:132px;	
@@ -47,10 +49,10 @@ div{
 	min-height:400px;		
 }
 .buttom-content{
-	min-height:290px;	
+	min-height:290px;
 }
 .module{
-	min-height:370px;	
+	min-height:370px;
 }
 .module1{
 	min-height:370px;	
